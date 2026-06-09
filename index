@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASAT PJOK Kelas 2 SD</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<img src="img/guru.png" class="guru">
+
+<div>
+<h1>🏃 ASAT PJOK</h1>
+<h2>KELAS 2 SD</h2>
+<p>25 Soal Pilihan Ganda</p>
+</div>
+
+</header>
+
+<div class="progress">
+<div id="bar"></div>
+</div>
+
+<div id="nomor"></div>
+
+<div class="card">
+
+<img id="gambarSoal">
+
+<h3 id="soal"></h3>
+
+<div id="pilihan"></div>
+
+</div>
+
+<div id="hasil" class="hasil"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
